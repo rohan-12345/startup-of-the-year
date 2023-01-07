@@ -1,0 +1,55 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    /* height and width setting is done to always have 100% of window covered */
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; */
+ }
+    /*html { 
+        height: 100%;
+    width: 100%;
+        background: url(header.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }*/
+h1{
+    color: white;
+    
+}
+.button-xl{
+    padding: 1rem 2rem;
+    border-radius: 300px;
+    background-color: #ff7c07;
+    color: #f8f9fa;
+}
+/* hr{
+    border-color: #ff7c07;
+    border-width: 3px;
+    max-width: 65px;
+} */
+hr {
+
+    margin: 20px auto;
+    
+    color: #F05F44;
+    background-color: #F05F44;
+    border: 2px solid #F05F44;
+    
+    max-width: 65px;
+    
+    opacity: 1;
+    
+    }
+.buffer{
+    height: 16rem;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
